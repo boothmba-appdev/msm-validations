@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2021-msm-validations
+image: jelaniwoods/appdev2021-msm-validations@sha256:9fda48c1b1eb1b96fe9cfbf833a192ed9966cecaea532780887d009d9d9f1045
 
 tasks:
   - init: bin/setup
