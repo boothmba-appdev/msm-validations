@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.6'
+ruby '2.7.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
@@ -60,7 +60,6 @@ group :test do
   gem 'capybara'
   gem 'factory_bot_rails'
   gem 'rspec-rails'
-  gem 'shoulda-matchers', '~> 4.0'
   gem 'webmock'
   gem 'rspec-html-matchers'
   gem 'selenium-webdriver'
